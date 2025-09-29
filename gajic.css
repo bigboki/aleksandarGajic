@@ -1,0 +1,443 @@
+body {
+background-color: black;
+color: rgb(159, 146, 101);
+}
+
+#masterDiv {
+margin-left:auto;
+margin-right:auto;
+margin-top: 20px;
+background-image: url('images/background.jpg');
+background-repeat:no-repeat;
+background-position: center;
+height: 1500px;
+width: 1000px;
+}
+
+#mainmenu ul {
+text-align: center;
+}
+
+/* menu */
+#mainmenu a {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+line-height: 30px;
+font-weight: bolder;
+color: #460000;
+text-decoration: none;
+letter-spacing: 0.1em;
+text-align: center;
+}
+
+/* menu with mouse hover */
+#mainmenu a:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bolder;
+text-align: center;
+color: #D29A26;
+background-color: #460000;
+}
+	
+#mainmenu li {
+display: inline;
+padding-left: 11px;
+padding-right: 11px;
+}
+
+a.links2 {
+text-decoration: underline;
+color: white;
+}
+
+/* div with transparent background */	
+#contentDiv {
+background-color: rgb(208, 185, 135);
+border: 1px solid black;
+width: 491px;
+float: right;
+display: block;
+margin: 10px;
+font-family: "Georgia";
+z-index:-1;
+/* These three lines are for transparency in all browsers. */
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+opacity: 0.6;
+}
+
+/* for text in transparent div */	
+#contentDiv p {
+color: black;
+margin: 4px;
+}
+
+#contentDiv a {
+color: black;
+margin: 4px;
+}
+
+#contentDiv ul {
+color: black;
+margin: 4px;
+}
+
+#videos {
+position: relative;
+left: 15px;
+}
+
+#bands {
+display: block;
+margin-left: 495px;
+font-family: "Arial";
+font-size:15px;
+}
+
+#bands p {
+color: gold;
+margin: 4px;
+}
+
+#bands img {
+width: 150px;
+height: 150px;
+}
+
+#bands2 {
+display: block;
+float: right;
+margin-left: 5px;
+font-family: "Arial";
+font-size:15px;
+}
+
+#bands2 p {
+color: gold;
+margin: 4px;
+}
+
+#bands2 img {
+width: 150px;
+height: 150px;
+}
+
+.bandlink img {
+border: 0px none;
+}
+
+h1 {
+font-family: "Victorian LET";
+font-size: 50px;
+font-weight: bold;
+line-height: normal;
+color: #460000;
+text-align: center;
+margin-top: -5px;
+}
+
+h2 {
+font-family: "Victorian LET";
+font-size: 36px;
+font-weight: bold;
+line-height: 25px;
+color: #460000;
+font-style: oblique;
+text-align: center;
+margin-top: -30px;
+}
+
+h3 {
+font-family: Georgia, Helvetica, sans-serif;
+font-size: 15px;
+line-height: normal;
+color: black;
+margin-top: 50px;
+margin-left: 498px;
+}
+
+/* banner at top of site */
+.banner {
+margin-top: 13px;
+margin-left: 239px;
+}
+
+footer {
+color: white;
+font-size: 12;
+/* margin-left: 124px; */
+margin-left:auto;
+margin-right:auto;
+width: 1000px;
+}
+
+#masterAudioDiv {
+display: block;
+margin-top: 75px;
+margin-left: 498px;
+}
+
+.miscellaneous {
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+color: black;
+/*font-size: 0.65em;*/
+font-size:65%;
+}
+
+.bio {
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+color: black;
+/*font-size: 0.65em;*/
+font-size:90%;
+}
+
+.reviewpic img {
+width: 470px;
+height: 1090px;
+}
+
+
+
+
+
+
+
+
+/* PHOTO GALLERY */
+#container {
+position: relative; 
+/*width: 770px; */
+width: 950px;
+/*height: 396px; */
+height:778px;
+margin: 20px auto 0 auto; 
+border: 1px solid #aaa; 
+text-align:center; 
+font-family: tahoma; arial, sans-serif; 
+font-size: 76%; 
+letter-spacing: 0.05em;
+background: #000 url('images/Ladino2.jpg') 10px 10px no-repeat;
+}
+
+/*width and height of thumbnail div*/
+#container ul {
+padding:0; 
+list-style-type:none; 
+/*width:198px;*/
+width:198px;
+/*height:386px;*/
+height:386px;
+margin:5px; 
+float:right; 
+}
+
+#container li {
+float:left;
+}
+
+#container a.gallery span {
+position:absolute;
+width:1px;
+height:1px;
+top:5px;
+left:5px;
+overflow:hidden;
+background:#fff;
+}
+
+#container a.gallery:hover {
+border:1px;
+border-style: solid;
+border-color:#fff;
+/* solid #fff; */
+}
+
+#container a.gallery:hover img {
+    /*border:1px solid #fff;*/
+	border:1px;
+	border-style: solid;
+	border-color: #fff;
+    float:left;
+    margin-right:5px;
+	}
+	
+#container a.gallery:hover span {
+    /*
+	position:absolute;
+	*/
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+   /*
+	width:335px;
+    height:372px;
+	*/
+	width:700px;
+	height:700px;
+
+    top:10px;
+    left:10px;
+
+    color:#000;
+    background:#000;
+    }
+	
+	/*
+	#container a.slideb:hover img, #container a.slidei:hover img {
+    float:right;
+    }
+	*/
+#container a.gallery:hover span img{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1px;
+}
+#container a.gallery, #container a.gallery:visited {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    border:1px solid #000;
+    margin:1px 2px 1px 2px;
+    text-align:left;
+    cursor:default;
+    }
+#container a.slidea {
+    background:url('images/fot_100.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slideb {
+    background:url('images/fot_101.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidec {
+    background:url('images/fot_102.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slided {
+    background:url('images/fot_103.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidee {
+    background:url('images/fot_104.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slideg {
+    background:url('images/fot_112.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slideh {
+    background:url('images/fot_107.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slidei {
+    background:url('images/fot_108.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slidej {
+    background:url('images/fot_109.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slidek {
+    background:url('images/fot_110.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slidel {
+    background:url('images/fot_111.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slidem {
+    background:url('images/BavaracuTorontu5copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.sliden {
+    background:url('images/BAND13copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slideo {
+    background:url('images/SlikeSeptembar2005008copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidep {
+    background:url('images/SlikeSeptembar2005012copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slideq {
+    background:url('images/SlikeSeptembar2005031copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slider {
+    background:url('images/BavaracuTorontu8copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slides {
+    background:url('images/BavaracuTorontu3copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidet {
+    background:url('images/BeogradBosna017copy.jpg');
+    height:93px;
+    width:60px;
+    }
+#container a.slideu {
+    background:url('images/BeogradBosna021copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidev {
+    background:url('images/Ladino3copy.jpg');
+    height:60px;
+    width:93px;
+    }
+#container a.slidew {
+	background:url('images/sierra2copy.jpg');
+	height:60px;
+	width:93px;
+    }
+#container a.slidex {
+	background:url('images/herbiecopy.jpg');
+	height:60px;
+	width:93px;
+    }
+/* PHOTO GALLERY */
+/*
+     FILE ARCHIVED ON 08:45:28 Dec 09, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:09:23 Sep 27, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.463
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 12.412
+  LoadShardBlock: 106.631 (3)
+  PetaboxLoader3.datanode: 162.081 (4)
+  PetaboxLoader3.resolve: 140.137 (2)
+  load_resource: 216.537
+*/
